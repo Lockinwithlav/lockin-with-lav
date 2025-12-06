@@ -252,3 +252,31 @@ https://nextjs.org/docs/messages/module-not-found
 [00:13:48.397] Server  LOG      ✓ Compiled in 169ms
 [00:13:48.637] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [00:14:01.555] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:01.200] Server  LOG      ✓ Compiled in 18ms
+[00:19:40.443] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:31.329] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:23:05.848] Server  ERROR   C:\Users\whosl\lockin-with-lav\.next\dev\server\chunks\[root-of-the-server]__a38b6de5._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:23:05.884] Server  ERROR   C:\Users\whosl\lockin-with-lav\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:23:05.918] Server  ERROR   C:\Users\whosl\lockin-with-lav\.next\dev\server\chunks\node_modules_60c60f06._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:23:05.923] Server  ERROR   C:\Users\whosl\lockin-with-lav\node_modules\next\dist\server\base-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:23:05.927] Server  ERROR   C:\Users\whosl\lockin-with-lav\node_modules\next\dist\server\next-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:23:05.933] Server  ERROR   C:\Users\whosl\lockin-with-lav\node_modules\next\dist\server\dev\next-dev-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:23:05.934] Server  ERROR   C:\Users\whosl\lockin-with-lav\node_modules\next\dist\trace\trace.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:23:05.935] Server  ERROR   C:\Users\whosl\lockin-with-lav\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:23:05.936] Server  ERROR   C:\Users\whosl\lockin-with-lav\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:23:05.938] Server  ERROR   TypeError: Cannot read properties of undefined (reading 'toString')
+[00:23:06.052] Browser ERROR   unhandledRejection: SyntaxError: Failed to execute 'json' on 'Response': Unexpected end of JSON input
+[00:24:51.560] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:53.000] Server  ERROR   C:\Users\whosl\lockin-with-lav\.next\dev\server\chunks\node_modules_60c60f06._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:24:53.003] Server  ERROR   Stripe checkout error: Error: Invalid value for `metadata`. Metadata must be a single object containing key-value pairs.  See the metadata documentation for more details: https://docs.stripe.com/api/metadata
+[00:24:53.684] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:56.310] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:58.917] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:00.351] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:01.075] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:02.048] Server  ERROR   C:\Users\whosl\lockin-with-lav\.next\dev\server\chunks\node_modules_60c60f06._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:25:02.050] Server  ERROR   Stripe checkout error: Error: Invalid value for `metadata`. Metadata must be a single object containing key-value pairs.  See the metadata documentation for more details: https://docs.stripe.com/api/metadata
+[00:25:02.240] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:06.148] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:34.610] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:35.700] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

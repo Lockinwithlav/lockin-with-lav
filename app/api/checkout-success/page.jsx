@@ -1,5 +1,4 @@
 "use client";
-
 import { useEffect, useState } from "react";
 
 export default function CheckoutSuccess() {
@@ -12,14 +11,13 @@ export default function CheckoutSuccess() {
     setSessionId(id);
 
     if (id) {
-      // Call your API to send the plan email
       fetch("/api/send-plan", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ sessionId: id }),
       })
-        .then(res => res.json())
-        .then(data => setEmailSent(data.success))
+        .then((res) => res.json())
+        .then((data) => setEmailSent(data.success))
         .catch(() => setEmailSent(false));
     }
   }, []);
