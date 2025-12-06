@@ -30,7 +30,7 @@
     "**/*.mts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "app/api/checkout-sucess/page.jsx", "app/api/stripe-webhook/route.js", "app/dashboard/page.jsx"  ],
   "exclude": [
     "node_modules"
   ]
