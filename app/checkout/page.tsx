@@ -1,4 +1,4 @@
-import stripe from "../../../lib/stripe";
+import stripe from "../../lib/stripe";
 
 export async function POST(req) {
   const { priceId, email } = await req.json();

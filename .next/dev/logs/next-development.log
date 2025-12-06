@@ -1,8 +1,254 @@
-[00:00:00.924] Server  LOG      ✓ Ready in 596ms
-[00:00:02.444] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:05.734] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:06:28.767] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:06:45.990] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:07:59.787] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:57.327] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:09:32.367] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:01.115] Server  LOG      ✓ Ready in 789ms
+[00:00:02.797] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:32.954] Server  ERROR    ⨯ ./app/checkout/page.tsx:1:1
+Module not found: Can't resolve '../../../lib/stripe'
+> 1 | import stripe from "../../../lib/stripe";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export async function POST(req) {
+  4 |   const { priceId, email } = await req.json();
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:34.025] Browser ERROR   uncaughtError: Error: ./app/checkout/page.tsx:1:1
+Module not found: Can't resolve '../../../lib/stripe'
+> 1 | import stripe from "../../../lib/stripe";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export async function POST(req) {
+  4 |   const { priceId, email } = await req.json();
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:07:34.221] Browser ERROR   ./app/checkout/page.tsx:1:1
+Module not found: Can't resolve '../../../lib/stripe'
+> 1 | import stripe from "../../../lib/stripe";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export async function POST(req) {
+  4 |   const { priceId, email } = await req.json();
+
+https://nextjs.org/docs/messages/module-not-found
+[00:07:34.221] Browser ERROR   ./app/checkout/page.tsx:1:1
+Module not found: Can't resolve '../../../lib/stripe'
+> 1 | import stripe from "../../../lib/stripe";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export async function POST(req) {
+  4 |   const { priceId, email } = await req.json();
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:01.393] Browser ERROR   ./app/checkout/page.tsx:1:1
+Module not found: Can't resolve '../../../lib/stripe'
+> 1 | import stripe from "../../../lib/stripe";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export async function POST(req) {
+  4 |   const { priceId, email } = await req.json();
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:49.389] Browser ERROR   ./app/checkout/page.tsx:1:1
+Module not found: Can't resolve '../../../lib/stripe'
+> 1 | import stripe from "../../../lib/stripe";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export async function POST(req) {
+  4 |   const { priceId, email } = await req.json();
+
+https://nextjs.org/docs/messages/module-not-found
+[00:09:57.380] Browser ERROR   ./app/checkout/page.tsx:1:1
+Module not found: Can't resolve '../../../lib/stripe'
+> 1 | import stripe from "../../../lib/stripe";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export async function POST(req) {
+  4 |   const { priceId, email } = await req.json();
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:02.787] Browser ERROR   uncaughtError: Error: ./app/checkout/page.tsx:1:1
+Module not found: Can't resolve '../../../lib/stripe'
+> 1 | import stripe from "../../../lib/stripe";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export async function POST(req) {
+  4 |   const { priceId, email } = await req.json();
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:02.964] Browser ERROR   ./app/checkout/page.tsx:1:1
+Module not found: Can't resolve '../../../lib/stripe'
+> 1 | import stripe from "../../../lib/stripe";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export async function POST(req) {
+  4 |   const { priceId, email } = await req.json();
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:02.965] Browser ERROR   ./app/checkout/page.tsx:1:1
+Module not found: Can't resolve '../../../lib/stripe'
+> 1 | import stripe from "../../../lib/stripe";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export async function POST(req) {
+  4 |   const { priceId, email } = await req.json();
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:48.386] Browser ERROR   ./app/checkout/page.tsx:1:1
+Module not found: Can't resolve '../../../lib/stripe'
+> 1 | import stripe from "../../../lib/stripe";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export async function POST(req) {
+  4 |   const { priceId, email } = await req.json();
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:49.871] Browser ERROR   uncaughtError: Error: ./app/checkout/page.tsx:1:1
+Module not found: Can't resolve '../../../lib/stripe'
+> 1 | import stripe from "../../../lib/stripe";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export async function POST(req) {
+  4 |   const { priceId, email } = await req.json();
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:50.025] Browser ERROR   ./app/checkout/page.tsx:1:1
+Module not found: Can't resolve '../../../lib/stripe'
+> 1 | import stripe from "../../../lib/stripe";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export async function POST(req) {
+  4 |   const { priceId, email } = await req.json();
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:50.025] Browser ERROR   ./app/checkout/page.tsx:1:1
+Module not found: Can't resolve '../../../lib/stripe'
+> 1 | import stripe from "../../../lib/stripe";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export async function POST(req) {
+  4 |   const { priceId, email } = await req.json();
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:54.329] Browser ERROR   ./app/checkout/page.tsx:1:1
+Module not found: Can't resolve '../../../lib/stripe'
+> 1 | import stripe from "../../../lib/stripe";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export async function POST(req) {
+  4 |   const { priceId, email } = await req.json();
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:55.609] Browser ERROR   uncaughtError: Error: ./app/checkout/page.tsx:1:1
+Module not found: Can't resolve '../../../lib/stripe'
+> 1 | import stripe from "../../../lib/stripe";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export async function POST(req) {
+  4 |   const { priceId, email } = await req.json();
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:10:55.760] Browser ERROR   ./app/checkout/page.tsx:1:1
+Module not found: Can't resolve '../../../lib/stripe'
+> 1 | import stripe from "../../../lib/stripe";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export async function POST(req) {
+  4 |   const { priceId, email } = await req.json();
+
+https://nextjs.org/docs/messages/module-not-found
+[00:10:55.760] Browser ERROR   ./app/checkout/page.tsx:1:1
+Module not found: Can't resolve '../../../lib/stripe'
+> 1 | import stripe from "../../../lib/stripe";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export async function POST(req) {
+  4 |   const { priceId, email } = await req.json();
+
+https://nextjs.org/docs/messages/module-not-found
+[00:11:08.393] Browser ERROR   ./app/checkout/page.tsx:1:1
+Module not found: Can't resolve '../../../lib/stripe'
+> 1 | import stripe from "../../../lib/stripe";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export async function POST(req) {
+  4 |   const { priceId, email } = await req.json();
+
+https://nextjs.org/docs/messages/module-not-found
+[00:11:10.064] Browser ERROR   uncaughtError: Error: ./app/checkout/page.tsx:1:1
+Module not found: Can't resolve '../../../lib/stripe'
+> 1 | import stripe from "../../../lib/stripe";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export async function POST(req) {
+  4 |   const { priceId, email } = await req.json();
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:11:10.207] Browser ERROR   ./app/checkout/page.tsx:1:1
+Module not found: Can't resolve '../../../lib/stripe'
+> 1 | import stripe from "../../../lib/stripe";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export async function POST(req) {
+  4 |   const { priceId, email } = await req.json();
+
+https://nextjs.org/docs/messages/module-not-found
+[00:11:10.207] Browser ERROR   ./app/checkout/page.tsx:1:1
+Module not found: Can't resolve '../../../lib/stripe'
+> 1 | import stripe from "../../../lib/stripe";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export async function POST(req) {
+  4 |   const { priceId, email } = await req.json();
+
+https://nextjs.org/docs/messages/module-not-found
+[00:12:53.386] Browser ERROR   ./app/checkout/page.tsx:1:1
+Module not found: Can't resolve '../../../lib/stripe'
+> 1 | import stripe from "../../../lib/stripe";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export async function POST(req) {
+  4 |   const { priceId, email } = await req.json();
+
+https://nextjs.org/docs/messages/module-not-found
+[00:13:15.384] Browser ERROR   ./app/checkout/page.tsx:1:1
+Module not found: Can't resolve '../../../lib/stripe'
+> 1 | import stripe from "../../../lib/stripe";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export async function POST(req) {
+  4 |   const { priceId, email } = await req.json();
+
+https://nextjs.org/docs/messages/module-not-found
+[00:13:25.385] Browser ERROR   ./app/checkout/page.tsx:1:1
+Module not found: Can't resolve '../../../lib/stripe'
+> 1 | import stripe from "../../../lib/stripe";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 |
+  3 | export async function POST(req) {
+  4 |   const { priceId, email } = await req.json();
+
+https://nextjs.org/docs/messages/module-not-found
+[00:13:48.397] Server  LOG      ✓ Compiled in 169ms
+[00:13:48.637] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:14:01.555] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold

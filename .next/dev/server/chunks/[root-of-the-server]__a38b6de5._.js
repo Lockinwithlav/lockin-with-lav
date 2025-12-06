@@ -99,13 +99,25 @@ __turbopack_context__.s([
     "POST",
     ()=>POST
 ]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$stripe$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/stripe.ts [app-route] (ecmascript)"); // adjust path if needed
+var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$stripe$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/stripe.ts [app-route] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/server.js [app-route] (ecmascript)");
 ;
 ;
 async function POST(req) {
     const body = await req.json();
     const domain = process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
+    // Only store essential user info in metadata
+    const metadata = {
+        email: body.email,
+        age: body.age.toString(),
+        gender: body.gender,
+        weight: body.weight.toString(),
+        height: body.height.toString(),
+        activity: body.activity,
+        goal: body.goal,
+        daysPerWeek: body.daysPerWeek.toString(),
+        dietPreference: body.dietPreference
+    };
     const session = await __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$stripe$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["default"].checkout.sessions.create({
         payment_method_types: [
             "card"
@@ -123,17 +135,7 @@ async function POST(req) {
                 quantity: 1
             }
         ],
-        metadata: {
-            email: body.email,
-            age: body.age,
-            gender: body.gender,
-            weight: body.weight,
-            height: body.height,
-            activity: body.activity,
-            goal: body.goal,
-            daysPerWeek: body.daysPerWeek,
-            dietPreference: body.dietPreference
-        },
+        metadata,
         success_url: `${domain}/checkout-success?session_id={CHECKOUT_SESSION_ID}`,
         cancel_url: `${domain}/checkout`
     });
