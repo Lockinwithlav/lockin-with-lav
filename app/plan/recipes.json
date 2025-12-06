@@ -1,0 +1,7 @@
+[
+  { "id": 1, "name": "Oatmeal with Berries", "calories": 350, "protein": 12, "fat": 8, "carbs": 55, "dietType": "vegetarian" },
+  { "id": 2, "name": "Grilled Chicken Salad", "calories": 400, "protein": 35, "fat": 15, "carbs": 30, "dietType": "non-vegetarian" },
+  { "id": 3, "name": "Quinoa Veggie Bowl", "calories": 450, "protein": 15, "fat": 12, "carbs": 65, "dietType": "vegetarian" },
+  { "id": 4, "name": "Protein Smoothie", "calories": 300, "protein": 25, "fat": 5, "carbs": 35, "dietType": "vegetarian" },
+  { "id": 5, "name": "Turkey Wrap", "calories": 400, "protein": 30, "fat": 10, "carbs": 45, "dietType": "non-vegetarian" }
+]

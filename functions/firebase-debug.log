@@ -1,0 +1,31 @@
+[debug] [2025-12-06T02:04:54.309Z] ----------------------------------------------------------------------
+[debug] [2025-12-06T02:04:54.312Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\whosl\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only functions --debug
+[debug] [2025-12-06T02:04:54.312Z] CLI Version:   14.27.0
+[debug] [2025-12-06T02:04:54.312Z] Platform:      win32
+[debug] [2025-12-06T02:04:54.312Z] Node Version:  v24.11.1
+[debug] [2025-12-06T02:04:54.312Z] Time:          Fri Dec 05 2025 21:04:54 GMT-0500 (Eastern Standard Time)
+[debug] [2025-12-06T02:04:54.312Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-12-06T02:04:54.517Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-06T02:04:54.518Z] > authorizing via signed-in user (whoslav@gmail.com)
+[debug] [2025-12-06T02:04:54.519Z] [iam] checking project lock-in-with-lav for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2025-12-06T02:04:54.520Z] Checked if tokens are valid: true, expires at: 1764989462584
+[debug] [2025-12-06T02:04:54.520Z] Checked if tokens are valid: true, expires at: 1764989462584
+[debug] [2025-12-06T02:04:54.522Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/lock-in-with-lav:testIamPermissions [none]
+[debug] [2025-12-06T02:04:54.522Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/lock-in-with-lav:testIamPermissions x-goog-quota-user=projects/lock-in-with-lav
+[debug] [2025-12-06T02:04:54.522Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/lock-in-with-lav:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]}
+[debug] [2025-12-06T02:04:54.900Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/lock-in-with-lav:testIamPermissions 200
+[debug] [2025-12-06T02:04:54.901Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/lock-in-with-lav:testIamPermissions {"permissions":["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]}
+[debug] [2025-12-06T02:04:54.902Z] Checked if tokens are valid: true, expires at: 1764989462584
+[debug] [2025-12-06T02:04:54.902Z] Checked if tokens are valid: true, expires at: 1764989462584
+[debug] [2025-12-06T02:04:54.903Z] >>> [apiv2][query] POST https://iam.googleapis.com/v1/projects/lock-in-with-lav/serviceAccounts/lock-in-with-lav@appspot.gserviceaccount.com:testIamPermissions [none]
+[debug] [2025-12-06T02:04:54.903Z] >>> [apiv2][body] POST https://iam.googleapis.com/v1/projects/lock-in-with-lav/serviceAccounts/lock-in-with-lav@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[debug] [2025-12-06T02:04:55.053Z] <<< [apiv2][status] POST https://iam.googleapis.com/v1/projects/lock-in-with-lav/serviceAccounts/lock-in-with-lav@appspot.gserviceaccount.com:testIamPermissions 200
+[debug] [2025-12-06T02:04:55.054Z] <<< [apiv2][body] POST https://iam.googleapis.com/v1/projects/lock-in-with-lav/serviceAccounts/lock-in-with-lav@appspot.gserviceaccount.com:testIamPermissions {"permissions":["iam.serviceAccounts.actAs"]}
+[info] 
+[info] === Deploying to 'lock-in-with-lav'...
+[info] 
+[info] i  deploying functions 
+[info] Running command: npm --prefix "$RESOURCE_DIR" run lint
+[error] 
+[error] Error: functions predeploy error: Command terminated with non-zero exit code 1
